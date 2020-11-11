@@ -8,7 +8,7 @@ for (let i=0; i<quotes.length;i++){
 
 const myFunction = () => {
     let word = document.getElementById("word").value;
-    var word2 = new RegExp(word, "g");
+    var word2 = new RegExp(word, "i");
     console.log(word2)
     for (let x=0;x<quotesList.length;x++){
         console.log(quotesList[x])
